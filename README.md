@@ -77,20 +77,17 @@
 
 1. **建立並推送至 GitHub 倉庫**：
    ```bash
-   git init
-   git add .
-   git commit -m "feat: complete AIoT-DIC2 Multiple Linear Regression Explorer"
+   git remote set-url origin https://github.com/0116c003/AIoT-DIC2-MultipleLR.git
    git branch -M main
-   git remote add origin https://github.com/<YOUR_USERNAME>/<YOUR_REPO_NAME>.git
    git push -u origin main
    ```
 2. **在 GitHub 啟用 GitHub Pages**：
-   - 進入倉庫頁面，點選頂部 **Settings** ➜ 左側選單點選 **Pages**。
+   - 進入倉庫頁面：`https://github.com/0116c003/AIoT-DIC2-MultipleLR/settings/pages`
    - 在 **Build and deployment** 區塊：
-     - **方式一（推薦）**：在 **Source** 下拉選單選擇 **`GitHub Actions`**。系統將自動執行 `.github/workflows/pages.yml`，約 30 秒內自動完成部署上線！
-     - **方式二（傳統）**：在 **Source** 選擇 **`Deploy from a branch`** ➜ Branch 選擇 **`main`**，資料夾選擇 **`/(root)`** ➜ 點擊 **`Save`**。
+     - **Source** 下拉選單選擇 **`GitHub Actions`**。系統將自動執行 `.github/workflows/pages.yml`，約 30 秒內自動完成部署上線！
 3. **完成發布**：
-   - 稍等約 1 分鐘後重新整理，即可在頁面看到綠色勾勾與發布成功的公開網址（例如 `https://<YOUR_USERNAME>.github.io/<YOUR_REPO_NAME>/`）！
+   - 稍等約 1 分鐘後重新整理，即可在頁面看到綠色勾勾與發布成功的公開網址：
+     `https://0116c003.github.io/AIoT-DIC2-MultipleLR/`
 
 ---
 
