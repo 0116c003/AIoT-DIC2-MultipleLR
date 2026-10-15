@@ -1,0 +1,37 @@
+{
+  "model_name": "50_startups_multiple_linear_regression",
+  "feature_names": [
+    "R&D Spend",
+    "Administration",
+    "Marketing Spend",
+    "State_Florida",
+    "State_New York"
+  ],
+  "coefficients": [
+    0.7968933591531789,
+    0.02615298205835903,
+    0.024560239670146478,
+    652.3199951645802,
+    -2928.501204723725
+  ],
+  "intercept": 46867.39266141248,
+  "metrics": {
+    "train_r2": 0.9687430326110055,
+    "test_r2": 0.8560833332698259,
+    "test_rmse": 14911.997004591723,
+    "test_mae": 10719.99688060278
+  },
+  "k2_optimal": {
+    "features": [
+      "R&D Spend",
+      "Marketing Spend"
+    ],
+    "intercept": 49014.5350193786,
+    "coefficients": [
+      0.7949480399626502,
+      0.025304630529452504
+    ],
+    "test_rmse": 13821.212838590694,
+    "test_r2": 0.8763677463343639
+  }
+}
